@@ -1,11 +1,11 @@
 import subprocess
 import hashlib
-
+# test 
 # Week 3: Information Security Fundamentals
 # Hardcoded credentials violate basic security principles (confidentiality, authentication)
 username = "admin"
 password = "admin123"
-
+ 
 # Week 8: Security Design and Development (CWE Top 25)
 # Weak hashing algorithm (MD5) is insecure and vulnerable to attacks
 def hash_password(pwd):
